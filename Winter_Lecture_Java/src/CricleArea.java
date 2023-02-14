@@ -5,7 +5,7 @@ public class CricleArea {
         double radius = 10.0; // 원의 반지름
         double circleArea = PI * radius * radius; // 원의 면적 계산
 
-        // 원의 면적을 화면에 출력한다.
+        // 원의 면적을 화면에 출력한다!
         System.out.println("원의 면적 = " + circleArea);
     }
 }
