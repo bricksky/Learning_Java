@@ -1,3 +1,5 @@
+package ch3;
+
 public class OperatorEx7 {
     public static void main(String[] args) {
         byte a = 10;
