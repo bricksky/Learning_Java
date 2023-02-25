@@ -20,5 +20,5 @@ public class OperatorEx25 {
         if (('a' <= ch && ch <= 'z') || ('A' <= ch && ch <= 'Z')) {
             System.out.printf("입력하신 문자는 영문자입니다.%n");
         }
-    } // main
+    } // main 함수의 내용
 }
