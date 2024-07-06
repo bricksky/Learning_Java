@@ -11,7 +11,7 @@ public class ArraryEx3 {
         for (int i = 0; i < arr.length; i++)
             System.out.println("arr[" + i + "]: " + arr[i]);
 
-        int[] tmp = new int[arr.length * 2];
+        int[] tmp = new int[arr.length * 2]; // 기존 배얄보다 길이가 2배인 배열 생성한 상태.
 
         // 배열 arr에 저장된 값들을 배열 tmp에 복사한다.
         for (int i = 0; i < arr.length; i++)
