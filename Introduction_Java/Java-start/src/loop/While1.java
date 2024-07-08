@@ -1,6 +1,6 @@
 package loop;
 
-public class While_1 {
+public class While1 {
 
     public static void main(String[] args) {
         int count  = 0;
