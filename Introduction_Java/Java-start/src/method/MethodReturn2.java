@@ -1,5 +1,5 @@
 package method;
-
+//
 public class MethodReturn2 {
     public static void main(String[] args) {
         checkAge(20);
