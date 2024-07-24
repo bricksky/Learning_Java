@@ -12,7 +12,7 @@ public class VarChange2 {
         System.out.println("dataB.value :" + dataB.value);
 
         // 10 - 10
-        
+
         // dataA 변경
         dataA.value = 20;
         System.out.println("변경 dataA.value = 20");
