@@ -11,7 +11,7 @@ public class SpeakerMain {
 
         // 필드에 직접 접근
         System.out.println("Volume 필드에 직접 접근");
-        speaker.volume = 40;
+//        speaker.volume = 40;
         speaker.showVolume();
     }
 }
