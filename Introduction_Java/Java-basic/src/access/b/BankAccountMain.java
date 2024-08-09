@@ -8,4 +8,3 @@ public class BankAccountMain {
         System.out.println("balance = " + account.getBalance());
     }
 }
-
