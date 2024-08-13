@@ -4,6 +4,7 @@ public class JavaMemoryMain2 {
     public static void main(String[] args) {
         System.out.println("main start");
         method1();
+        Data data2 = new Data(10);
         System.out.println("main end");
     }
 
@@ -14,10 +15,9 @@ public class JavaMemoryMain2 {
         System.out.println("method1 end");
     }
 
-    static void method2(Data data2){
+    static void method2(Data hi){
         System.out.println("method2 start");
-        System.out.println("data.value=" + data2.getValue());
-        System.out.println("method2 end");
+        System.out.println("data.value=" + hi.getValue());
         System.out.println("method2 end");
     }
 }
