@@ -1,4 +1,4 @@
-package extends1.access.Parent;
+package extends1.access.parent;
 
 public class Parent {
 
@@ -7,7 +7,7 @@ public class Parent {
     int defaultValue;
     private int privateValue;
 
-    
+
     public void publicMethod(){
         System.out.println("Parent.publicMethod");
     }
