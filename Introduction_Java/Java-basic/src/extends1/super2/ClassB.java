@@ -6,4 +6,8 @@ public class ClassB extends ClassA {
         super();
         System.out.println("ClassB 생성자 a = " + a);
     }
+    public ClassB(int a, int b){
+        super();
+        System.out.println("ClassB 생성자 a = " + a + ", b = " + b);
+    }
 }
