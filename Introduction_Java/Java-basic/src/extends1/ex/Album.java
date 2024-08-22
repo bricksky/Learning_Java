@@ -8,4 +8,10 @@ public class Album extends Item{
         super(name, price);
         this.artits = artits;
     }
+
+    @Override
+    public void print() {
+        super.print();
+        System.out.println("- 아티스트" + artits);
+    }
 }
