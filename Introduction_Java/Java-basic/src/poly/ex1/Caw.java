@@ -1,6 +1,6 @@
 package poly.ex1;
 
-public class Cow {
+public class Caw {
     public void sound(){
         System.out.println("음매");
     }
