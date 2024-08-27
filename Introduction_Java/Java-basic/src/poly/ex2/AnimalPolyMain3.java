@@ -6,15 +6,11 @@ public class AnimalPolyMain3 {
         
         // iter
         for (Animal animal : animalArr) {
-            soundAnimal(animal);
+            System.out.println("동물 소리 테스트 시작");
+            animal.sound();
+            System.out.println("동물 소리 테스트 종료");
         }
         
-    }
-
-    private static void soundAnimal(Animal animal) {
-        System.out.println("동물 소리 테스트 시작");
-        animal.sound();
-        System.out.println("동물 소리 테스트 종료");
     }
 
 }
