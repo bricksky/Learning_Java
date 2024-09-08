@@ -19,5 +19,10 @@ public class PayMain0 {
         String payOption3 = "bad";
         int amount3 = 15000;
         payService.processPay(payOption3, amount3);
+
+        // 네이버페이 결재
+        String payOption4 = "new";
+        int amount4 = 10000;
+        payService.processPay(payOption4, amount4);
     }
 }
