@@ -6,8 +6,10 @@ public class PayService {
 
         boolean result;
         System.out.println("결재를 시작합니다: option= "+ option + ", amount" + amount);
-    if(option.equals("kakao")){
-        KakaoPay kakaoPay = new KakaoPay();
+
+
+         if(option.equals("kakao")){
+             KakaoPay kakaoPay = new KakaoPay();
         result = kakaoPay.pay(amount);
     } else if (option.equals("naver")) {
         NaverPay naverPay = new NaverPay();
