@@ -13,6 +13,7 @@ public class GetTimeMain {
         System.out.println("MINUTE_OF_HOUR: " + dt.get(ChronoField.MINUTE_OF_HOUR));
         System.out.println("SECOND_OF_MINUTE: " + dt.get(ChronoField.SECOND_OF_MINUTE));
 
+        System.out.println("---------------------------------");
         System.out.println("편의 메서드 제공");
         System.out.println("YEAR: " + dt.getYear());
         System.out.println("MONTH_OF_YEAR: " + dt.getMonthValue());
@@ -20,5 +21,9 @@ public class GetTimeMain {
         System.out.println("HOUR_OF_DAY: " + dt.getHour());
         System.out.println("MINUTE_OF_HOUR: " + dt.getMinute());
         System.out.println("SECOND_OF_MINUTE: " + dt.getSecond());
+
+        System.out.println("---------------------------------");
+        System.out.println("편의 메서드에 없는 경우");
+        System.out.println("MINUTE_OF_DAY: " + dt.get(ChronoField.MINUTE_OF_DAY));
     }
 }
