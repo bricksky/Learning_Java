@@ -23,5 +23,9 @@ public class ChangeTimeWithMain {
         LocalDateTime with1 = dt.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));
         System.out.println("기준 날짜 = " + dt);
         System.out.println("다음주 금요일 = " + with1);
+
+        // 이번 달의 마지막 일요일
+        LocalDateTime with2 = dt.with(TemporalAdjusters.lastInMonth(DayOfWeek.SUNDAY));
+        System.out.println("같은 달의 마지막 일요일 = " + with2);
     }
 }
