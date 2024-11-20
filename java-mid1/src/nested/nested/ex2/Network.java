@@ -19,6 +19,4 @@ public class Network {
             System.out.println(content);
         }
     }
-
-
 }
