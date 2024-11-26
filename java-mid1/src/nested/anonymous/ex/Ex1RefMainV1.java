@@ -32,7 +32,11 @@ public class Ex1RefMainV1 {
     }
 
     public static void main(String[] args) {
-        hello(new Dice());
-        hello(new Sum());
+        Dice dice = new Dice();
+        Sum sum = new Sum();
+
+        System.out.println("hello 실행");
+        hello(dice);
+        hello(sum);
     }
 }
