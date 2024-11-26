@@ -14,7 +14,7 @@ public class Ex1RefMainV4 {
     }
 
     public static void main(String[] args) {
-        
+
         System.out.println("hello 실행");
         hello(new Process() {
 
