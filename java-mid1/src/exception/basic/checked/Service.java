@@ -13,4 +13,9 @@ public class Service {
         }
         System.out.println("정상 흐름");
     }
+
+    // 체크 예외를 밖으로 던지는 코드
+    public void catchThrow() throws MyCheckedException{
+        client.call();
+    }
 }
