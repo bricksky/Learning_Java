@@ -12,5 +12,5 @@ public class NetworkClientExceptionV2 extends Exception {
     public String getErrorCode() {
         return errorCode;
     }
-    
+
 }
